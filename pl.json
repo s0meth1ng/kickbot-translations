@@ -1,0 +1,181 @@
+{
+  "global": {
+    "channelNotFound": "Coś poszło nie tak i nie otrzymałem kanału z Discorda.",
+    "noBotPermsSend": "Nie mam uprawnień do wysyłania wiadomości na tym kanale!",
+    "noBotPermsEdit": "Nie mam uprawnień do edytowania tego kanału!",
+    "noUserPerms": "Nie masz uprawnień do użycia tej komendy!",
+    "nextPage": "Następna strona",
+    "prevPage": "Poprzednia strona",
+    "streamerNotFound": "Ten streamer nie istnieje!\n\n<:RoleIcon:1118592777454899302> **Uwaga:** Możesz znaleźć **nazwę użytkownika** na końcu linku do kanału.\n*Przykład: <https://kick.com/username> <=*",
+    "subLeaderboardNotFound": "Ten streamer nie ma tabeli wyników subskrybentów!\n\n<:RoleIcon:1118592777454899302> **Uwaga:** Możesz znaleźć **nazwę użytkownika** na końcu linku do kanału.\n*Przykład: <https://kick.com/username> <=*",
+    "optionStreamer": "Nazwa użytkownika streamera, którego chcesz.",
+    "optionChannel": "Kanał, na który chcesz wysłać wiadomość.",
+    "optionMessage": "Wiadomość, którą chcesz wysłać, gdy streamer zacznie nadawać na żywo.",
+    "optionCleanUp": "Wyczyść wiadomość po zakończeniu transmisji przez streamera. (Usuwa starą wiadomość)",
+    "optionFilters": "Filtruj powiadomienia na żywo według słów kluczowych w tytule. Oddziel przecinkami: słowo1, słowo2",
+    "serverOnly": "Ta komenda może być używana tylko na serwerze!",
+    "fetchError": "Wystąpił błąd podczas pobierania informacji o streamerze! Spróbuj ponownie później.",
+    "fetchErrorLeaderboard": "Wystąpił błąd podczas pobierania tabeli wyników streamera! Spróbuj ponownie później.",
+    "notTracked": "Ten streamer nie jest śledzony na tym serwerze!",
+    "addBot": "Dodaj Bota",
+    "onlyServer": "Ta komenda może być używana tylko na serwerze!",
+    "errorOccurred": "Wystąpił błąd podczas wykonywania komendy!",
+    "cooldown": "Musisz odczekać chwilę, zanim będziesz mógł kontynuować.",
+    "alreadyHaveSubRole": "Już masz rolę subskrybenta!",
+    "reSync": "Ponownie zsynchronizuj konto Kick",
+    "invalidSync": "Albo **{streamer}** nie jest już użytkownikiem kick, albo **{kickUser}** nie jest już użytkownikiem kick!",
+    "notSubscriber": "Nie jesteś subskrybentem {streamer}!",
+    "byAddingRoleError": "Podczas próby dodania roli subskrybenta wystąpił błąd!\n*Błąd: {error}*",
+    "modalInfoText": "Można znaleźć na kick.com.",
+    "watch": "Oglądaj",
+    "defaultNotification": "<:O_:1118592785642180698> [[STREAMER]] jest teraz na żywo!\n<:LinkIcon:1118592789488349325> Oglądaj tutaj: [[URL]]",
+    "why": "Dlaczego?"
+  },
+  "problems": {
+    "missingPermissions": "[Wygląda na to, że zastanawiasz się, dlaczego bot odpowiada \"Brak uprawnień\". Aby uzyskać więcej informacji na ten temat, kliknij tutaj.](https://kick.bot/guide/permissions)"
+  },
+  "premiumMessages": {
+    "plans": "Plany Premium:",
+    "monthly": "Miesięcznie",
+    "yearly": "Rocznie",
+    "discordPremium": "Aby anulować premium kupione na Discordzie, musisz przejść do ustawień Discorda.",
+    "premiumCommandInfo": "Aby kupić premium, użyj komendy </premium:1164829878626029639>."
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "Usuń streamera z bota!",
+      "optionStreamer": "Nazwa użytkownika streamera, którego chcesz usunąć."
+    },
+    "removed": "**{streamer}** został usunięty z bota!\n*Został dodany przez <@{addedById}>.*"
+  },
+  "subscriberRoleCommand": {
+    "commandData": {
+      "description": "Dodaj rolę subskrybenta do streamera.",
+      "optionStreamer": "Nazwa użytkownika streamera, którego subskrybenci powinni otrzymać rolę.",
+      "optionRole": "Rola, którą chcesz przyznać subskrybentom.",
+      "optionMessage": "Wiadomość, jeśli chcesz mieć niestandardową wiadomość.",
+      "descriptionExpiration": "Ustaw czas wygaśnięcia roli subskrybenta.",
+      "optionTime": "Czas w dniach, po którym rola subskrybenta zostanie usunięta po anulowaniu subskrypcji przez użytkownika."
+    },
+    "embed": {
+      "title": "Rola subskrybenta dla ",
+      "description": "Aby otrzymać rolę subskrybenta **{streamer}**, wystarczy kliknąć poniższy przycisk o nazwie **Sub Role**."
+    },
+    "added": "Wysłałem wbudowaną rolę subskrybenta do <#{channel}>!\n*Informacja: Jeśli chcesz usunąć ustawienie, po prostu usuń wiadomość i rolę, a bot automatycznie usunie ustawienia w bazie danych.*",
+    "error": "Podczas próby wysłania wbudowanej roli subskrybenta wystąpił błąd!\n*Błąd: {error}*",
+    "button": "Pobierz rolę subskrybenta",
+    "noPremiumForExpiration": "Musisz mieć premium, aby ustawić czas wygaśnięcia roli subskrybenta.",
+    "expiration": "Rola subskrybenta zostanie teraz usunięta po {time} dniach. (Uwaga: Jeśli subskrybują ponownie, Kick Bot nie usunie roli!)"
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "Uzyskaj zaproszenie do wsparcia!"
+    },
+    "supportText": "<:QuestionMarkicon:1118592784509698149> Potrzebujesz pomocy? Dołącz do serwera wsparcia!\nhttps://discord.gg/ZVERh35"
+  },
+  "variablesCommand": {
+    "commandData": {
+      "description": "Uzyskaj listę wszystkich zmiennych, których możesz użyć w swojej wiadomości!"
+    },
+    "header": "Zmienne Bota Discord Kick",
+    "streamer": "Nazwa użytkownika streamera.",
+    "url": "URL transmisji streamera. (Niedostępne w licznikach!)",
+    "title": "Tytuł transmisji.",
+    "viewers": "Liczba widzów transmisji.",
+    "language": "Język transmisji.",
+    "image": "Miniatura transmisji. (Niedostępne w licznikach!)",
+    "new_line": "Nowa linia. (Niedostępne w licznikach!)",
+    "followers": "Liczba obserwujących streamera.",
+    "created_at": "Data utworzenia transmisji. (Niedostępne w licznikach!)",
+    "category": "Kategoria transmisji.",
+    "category_name": "Obraz kategorii transmisji.",
+    "default_message": "Domyślna wiadomość. (Niedostępne w licznikach!)",
+    "streamer_image": "Awatar streamera.",
+    "slug": "Slug streamera."
+  },
+  "testCommand": {
+    "commandData": {
+      "description": "Przetestuj swoje powiadomienie na żywo.",
+      "optionStreamer": "Nazwa użytkownika streamera, którego chcesz przetestować."
+    }
+  },
+  "linkCommand": {
+    "commandData": {
+      "description": "Połącz swoje konto Kick.com z kontem Discord!"
+    },
+    "alreadyLinked": "Jesteś już połączony z kontem Kick.com! Użyj poniższego przycisku, aby ponownie połączyć."
+  },
+  "listCommand": {
+    "commandData": {
+      "description": "Zobacz wszystkich streamerów śledzonych przez bota na tym serwerze!"
+    },
+    "emptyList": "Na tym serwerze nie ma skonfigurowanych streamerów!"
+  },
+  "counterCommand": {
+    "commandData": {
+      "description": "Dodaj licznik dla Kick.com do jednego z kanałów w Twojej kategorii!",
+      "optionName": "Nazwa licznika. (Możesz użyć zmiennych bota)",
+      "optionStreamer": "Nazwa użytkownika streamera, którego chcesz.",
+      "optionType": "Typ licznika, który chcesz dodać.",
+      "typeFollowers": "Licznik Obserwujących",
+      "typeCategory": "Licznik Kategorii",
+      "typeLive": "Licznik Na Żywo",
+      "typeTitle": "Licznik Tytułu",
+      "typeViewers": "Licznik Widzów"
+    },
+    "createdCounter": "Utworzono licznik **{type}** dla **{streamer}**.",
+    "errorCounter": "Podczas próby utworzenia licznika wystąpił błąd!\n*Błąd: {error}*",
+    "followCounter": "Licznik Obserwujących",
+    "liveCounter": "Licznik Na Żywo",
+    "viewersCounter": "Licznik Widzów",
+    "categoryCounter": "Licznik Kategorii",
+    "titleCounter": "Licznik Tytułu"
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "Pokaż pomoc do Kick Bota!"
+    },
+    "title": "Pomoc do Kick Bota",
+    "description": "Potrzebujesz pomocy? Dołącz do naszego serwera wsparcia: https://discord.gg/ZVERh35",
+    "premium": "**Kick Bot Premium**\nJeśli chcesz kupić premium, użyj komendy </premium:1164829878626029639>\nAby dowiedzieć się więcej o korzyściach z premium, sprawdź <https://kickbot.gg/premium>",
+    "commands": {
+      "live": "Wysyła wiadomość, gdy streamer, którego wybrałeś, zaczyna transmisję na żywo.",
+      "subscriberRole": "Przydziela subskrybentom streamera rolę na Twoim serwerze.",
+      "link": "Łączy Twoje konto Kick z kontem Discord.",
+      "variables": "Lista zmiennych do użycia w Twoich wiadomościach na żywo!",
+      "help": "Pokazuje pomoc do Kick Bota!",
+      "test": "Przetestuj swoje powiadomienie na żywo.",
+      "support": "Uzyskaj zaproszenie do wsparcia!",
+      "list": "Zobacz wszystkich streamerów śledzonych przez bota na tym serwerze!",
+      "remove": "Usuń streamera z bota!",
+      "counter": "Dodaj licznik dla Kick.com do jednego z kanałów w Twojej kategorii!",
+      "premium": "Kup premium Kick Bota!"
+    }
+  },
+  "liveCommand": {
+    "commandData": {
+      "description": "Powiadamiaj o streamerach Kick na Twoim serwerze!",
+      "optionStreamer": "Nazwa użytkownika streamera, którego chcesz.",
+      "optionChannel": "Kanał, na który chcesz wysłać wiadomość.",
+      "optionMessage": "Wiadomość, którą chcesz wysłać, gdy streamer zacznie nadawać na żywo.",
+      "optionCleanUp": "Wyczyść wiadomość po zakończeniu transmisji przez streamera. (Usuwa starą wiadomość)",
+      "optionFilters": "Filtruj powiadomienia na żywo według słów kluczowych w tytule. Oddziel przecinkami: słowo1, słowo2"
+    },
+    "alreadyLive": "Wiadomość na żywo już skonfigurowana na kanale!",
+    "addedLive": "Powiadomienie na żywo dla **{streamer}** zostało skonfigurowane na **{channel}**!\n*Informacja: Aby usunąć ustawienie, usuń wiadomość, a bot automatycznie usunie ustawienia z bazy danych.*"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Kup premium Kick Bota!"
+    },
+    "title": "Kick Bot Premium",
+    "description": "Premium jest teraz dostępne na naszej stronie internetowej.\n**[Kup Premium](https://kickbot.gg/premium)**",
+    "supporterRole": "Gdy kupisz Kick Bot Premium, otrzymasz automatycznie rolę **Wspierającego** na serwerze wsparcia Kick Bota.\nWykorzystaj wszystkie korzyści i zdobądź pomoc, jakiej potrzebujesz, natychmiast!",
+    "perksTitle": "Korzyści",
+    "perks": [
+      "🛡️ **Wsparcie Premium**\nOtrzymuj szybsze wsparcie na naszym serwerze wsparcia Discord.",
+      "📰 **Więcej Powiadomień Na Żywo**\nOtrzymuj powiadomienia na żywo dla większej liczby streamerów.",
+      "📝 **Niestandardowe Wiadomości**\nTwórz własne wiadomości na żywo dla swoich ulubionych streamerów."
+    ]
+  }
+}
